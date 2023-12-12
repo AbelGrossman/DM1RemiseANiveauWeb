@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <meta name="viewport" charset="UTF-8">
-    <title>Premiere Page Remise a Niveau</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha384-kq1hWV2Rog/uLZ5S3qDGSQ0D9UBCCv1ZRS8fXp4i68xQ/2EPDiPOeTpTEjz2B+Dx" crossorigin="anonymous">
@@ -21,9 +20,8 @@
         <!-- Le contenu principal de votre page -->
         <article>
             <section>
-                <h1>Titre de la Section</h1>
-                <p>Contenu de la section.</p>
-                <form>
+                <h1>Contactez-nous</h1>
+                <form method="post" action="traitement_formulaire.php">
                     <div class="form-group">
                         <label for="nom">Nom :</label>
                         <input type="text" class="form-control" id="nom" name="nom" required>
@@ -63,10 +61,9 @@
             </div>
         </div>
     </main>
+    <footer class="bg-dark text-light text-center p-3">
+        <p>Pied de page</p>
+    </footer>
 </body>
-
-<footer class="bg-dark text-light text-center p-3">
-    <p>Pied de page</p>
-</footer>
 
 </html>
